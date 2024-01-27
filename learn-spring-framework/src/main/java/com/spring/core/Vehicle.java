@@ -1,4 +1,4 @@
-package java.com.spring.core;
+package com.spring.core;
 
 public interface Vehicle {
 
