@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aba4c820-8bfe-4b4f-afc4-1ae28ad3f114" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/Traveler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
