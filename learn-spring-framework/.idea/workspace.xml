@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aba4c820-8bfe-4b4f-afc4-1ae28ad3f114" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/DemoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/repository/DemoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/di/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/di/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/di/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/di/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/core/di/SMSService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +42,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.DemoClient.executor": "Run",
     "Application.com.spring.core.Client.executor": "Run",
+    "Application.com.spring.core.di.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "annotationBasedConfigration",
@@ -50,7 +54,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoClient">
+  <component name="RunManager" selected="Application.com.spring.core.di.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java.com.spring.core.Client" />
       <module name="learn-spring-framework" />
@@ -90,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.spring.core.di.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.core.di.Client" />
+      <module name="learn-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.core.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.spring.core.di.Client" />
         <item itemvalue="Application.DemoClient" />
         <item itemvalue="Application.com.spring.core.Client" />
         <item itemvalue="Application.Client" />
