@@ -9,10 +9,20 @@ import org.springframework.stereotype.Component;
 public class MessageSender {
 
     private MessageService messageService;
-    private SMSService smsService;
+    private MessageService smsService;
+    @Autowired
+    public void setMessdageService(@Qualifier("emailservice") MessageService messageService) {
+        this.messageService = messageService;
+        System.out.println("Setter based dependency. ");
+    }
 
+    @Autowired
+    public void setSmsService(@Qualifier("smsService") MessageService smsService) {
+        this.smsService = smsService;
+        System.out.println("set sms service");
+    }
     //@Autowired
-    public MessageSender(@Qualifier("emailservice") MessageService messageService){
+/*    public MessageSender(@Qualifier("emailservice") MessageService messageService){
         this.messageService = messageService;
         System.out.println("Consturtor based dependency injection");
     }
@@ -21,10 +31,9 @@ public class MessageSender {
         this.messageService = messageService;
         this.smsService = smsService;
         System.out.println("Consturtor based dependency injection 2");
-    }
+    }*/
 
     public void sendMessage(String message){
-
         this.messageService.sendMessage(message);
         this.smsService.sendMessage(message);
     }
