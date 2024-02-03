@@ -8,9 +8,13 @@ import org.springframework.stereotype.Component;
 
 public class MessageSender {
 
-    private MessageService messageService;
-    private MessageService smsService;
     @Autowired
+    @Qualifier("emailservice")
+    private MessageService messageService;
+    @Autowired
+    //@Qualifier("smsService")
+    private MessageService smsService;
+/*    @Autowired
     public void setMessdageService(@Qualifier("emailservice") MessageService messageService) {
         this.messageService = messageService;
         System.out.println("Setter based dependency. ");
@@ -20,7 +24,7 @@ public class MessageSender {
     public void setSmsService(@Qualifier("smsService") MessageService smsService) {
         this.smsService = smsService;
         System.out.println("set sms service");
-    }
+    }*/
     //@Autowired
 /*    public MessageSender(@Qualifier("emailservice") MessageService messageService){
         this.messageService = messageService;
